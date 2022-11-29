@@ -99,8 +99,8 @@ summary {
   bottom: 100px;
   transition: all 200ms ease-in-out;
   z-index: 9;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: rgba(48, 12, 106, 0.2);
   border: none;
   border-radius: 50%;
