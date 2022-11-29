@@ -1,0 +1,119 @@
+body {
+  margin: 0 auto;
+  width: 900px;
+  box-sizing: border-box;
+  background: url(./images/beautiful-watercolor-background_23-2148486848.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  position: relative;
+}
+
+.main {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0));
+  border: 1 solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+  padding: 35px;
+  margin: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-list li {
+  margin-left: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+  padding: 2px;
+}
+
+.nav-link:hover {
+  color: rgb(137, 27, 111);
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(53, 18, 38);
+  box-shadow: 0 6px 32px 0 rgb(0 0 0 / 37%);
+  border-radius: 10px;
+}
+
+.lang {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  color: rgb(137, 27, 111);
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.my-photo {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.contacts-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+summary {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.up-button {
+  position: fixed;
+  left: 1080px;
+  bottom: 100px;
+  transition: all 200ms ease-in-out;
+  z-index: 9;
+  width: 40px;
+  height: 40px;
+  background: rgba(48, 12, 106, 0.2);
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.up-button:hover {
+  background: rgba(48, 12, 106, 0.5);
+}
+
+#skills,
+#contacts,
+#short-info,
+#work-experience,
+#education {
+  border-bottom: 1px solid rgb(24, 23, 23);
+}
